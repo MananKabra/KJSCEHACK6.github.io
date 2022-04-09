@@ -4,6 +4,10 @@
     border: 0;
 }
 
+body{
+    background-color: rgb(40, 40, 40);
+}
+
 .navbar-nav{
     margin-left: auto;
 }
@@ -53,4 +57,87 @@
     transform: scale(1.05);
     background-color: rgba(0, 0, 0, 0.95);
 }
+
+#languages-select{
+    overflow: hidden;
+    padding: 200px 150px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.language-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 33, 33);
+    margin: 30px 80px;
+    border-radius: 8px;
+    width: 200px;
+    transition: background-color, transform, box-shadow;
+    transition-duration: 550ms;
+}
+
+.logo{
+    padding: 50px 0;
+    width: 100px;
+}
+
+.no-animation {
+	-webkit-animation: none !important;
+          animation: none !important; 
+}
+
+.left-card{
+    position: relative;
+    right: 100vw;
+    opacity: 0;
+    animation-name: left-card-animation;
+    animation-duration: 950ms;
+    animation-fill-mode: forwards;
+}
+
+.left-card:hover{
+    background-color: #e34f26;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.right-card{
+    position: relative;
+    left: 100vw;
+    opacity: 0;
+    animation-name: right-card-animation;
+    animation-duration: 950ms;
+    animation-fill-mode: forwards;
+}
+
+.right-card:hover{
+    background-color: #d5b92c;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.center-card{
+    position: relative;
+    bottom: 100vh;
+    opacity: 0;
+    animation-name: center-card-animation;
+    animation-duration: 950ms;
+    animation-fill-mode: forwards;
+}
+
+.center-card:hover{
+    background-color: #2d8ad6;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+
 
