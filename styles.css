@@ -6,6 +6,7 @@
 
 body{
     background-color: rgb(40, 40, 40);
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 .navbar-nav{
@@ -44,7 +45,7 @@ body{
 .header-text{
     position: relative;
     z-index: 2;
-    width: 50vw;
+    width: 70vw;
     background-color: rgba(0, 0, 0, 0.85);
     padding: 1% 10%;
     border-radius: 6px;
@@ -61,6 +62,12 @@ body{
 #languages-select{
     overflow: hidden;
     padding: 200px 150px;
+}
+
+.language-text{
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .cards-container{
@@ -138,6 +145,31 @@ body{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+@keyframes left-card-animation {
+    100%{
+        opacity: 1;
+        right: 0;
+    }
+}
 
+@keyframes right-card-animation {
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
+
+@keyframes center-card-animation {
+    100%{
+        opacity: 1;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 825px) {
+    .center-card{
+        bottom: 0;
+    }
+}
 
 
