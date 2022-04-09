@@ -77,3 +77,59 @@ body{
     text-align: center; 
     padding-top: 20px;
 }
+
+
+.linkscontainer{
+    padding-bottom:3%;
+  }
+  
+  .linkscontainer:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 6px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }
+  .container1{
+    height: 500px;
+    width: 350px;
+    font-size: 1.5vmax;
+    color: rgb(138, 171, 199);
+    font-family: 'Sansita Swashed', cursive;
+    
+  }
+  
+    .container2{
+      height: 500px;
+      width: 350px;
+      font-size: 1.5vmax;
+      color:#E3D980;
+      font-family: 'Sansita Swashed', cursive;
+      text-align: center;
+    }
+  
+    
+  
+    .container3{
+      height: 500px;
+      width: 350px;
+      font-size: 1.5vmax;
+      color:antiquewhite;
+      font-family: 'Sansita Swashed', cursive;
+    }
+  
+    @media(max-width: 800px){
+      .container3{
+        width: 0;
+        font-size: 0;
+      }
+    }
+    
+  .sub{
+    background:#403b92;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+  }
+  
