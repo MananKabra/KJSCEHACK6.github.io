@@ -144,7 +144,7 @@ body{
       }
     }
     
-  .sub{
+  #websites-page{
     height: 100vh;
     padding-top: 50px;
     background:#403b92;
@@ -194,7 +194,7 @@ body{
     margin: 0px 4px 0px 4px;
   }
 
-  #notes{
+  #notes-download{
     background-color: white;
     display: flex;
     flex-direction: column;
