@@ -201,6 +201,7 @@ body{
     align-items: center;
     padding-top: 50px;
     position: relative;
+    z-index: -1;
     bottom: 36px;
     font-family: 'Rubik Mono One', sans-serif;
     }
@@ -209,3 +210,13 @@ body{
     margin-top: 50px;
   }
   
+  .part-1{
+    width: 100vw;
+    text-align: center;
+    background: url("https://pbs.twimg.com/media/EoPFidwVQAI-gb7?format=jpg&name=large")
+                repeat fixed 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom-style: ridge;
+    border-width: 2px;
+  }
