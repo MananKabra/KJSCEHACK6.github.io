@@ -78,11 +78,22 @@ body{
     overflow: hidden;
     padding: 100px 150px;
     background-color: rgb(40, 40, 40);
+    background: url("images/lines.png") fixed no-repeat;
+    background-position: -20px -90px;
+    background-size: 130%;
+}
+
+@media (max-width: 750px) {
+    #languages-select{
+        background: none;
+        background-color: rgb(40, 40, 40);
+    }
 }
 
 .language-text{
     color: #FFF;
     text-align: center;
+    margin-top: 50px;
     margin-bottom: 150px;
 }
 
