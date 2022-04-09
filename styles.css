@@ -175,4 +175,52 @@ body{
     }
 }
 
+#features{
+    display: flex;
+    flex-direction: column;
+}
 
+.main-left {
+    margin: auto;
+    color: white;
+    width: 100%;
+    height: 40vmin;
+    background: url(images/features-left-background.png) repeat fixed 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-position: bottom;
+    align-items: center;
+    border-bottom-style: ridge;
+    border-top-style: ridge;
+    border-width: 3px;
+}
+
+.main-right {
+    margin: auto;
+    color: white;
+    width: 100%;
+    height: 40vmin;
+    background: url(images/features-right-background.png) repeat fixed 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    background-position: bottom;
+    align-items: center;
+    margin-top: 0;
+  }
+  
+.content {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  
+.features-logo {
+    width: 300px;
+}
+
+#web-logo {
+    position: relative;
+    top: 25px;
+  }
