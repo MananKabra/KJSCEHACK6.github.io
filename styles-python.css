@@ -60,7 +60,8 @@ body{
 #youtube-tutorials{
     text-align: center;
     background-color: #71A1EE;
-    padding: 10% 15%;
+    padding: 10% 5%;
+    color: #FFF;
 }
 
 .video-thumbnail{
@@ -70,4 +71,9 @@ body{
 .container-fluid{
     margin-left: auto;
     padding: 50px;
+}
+
+.yt-heading{
+    text-align: center; 
+    padding-top: 20px;
 }

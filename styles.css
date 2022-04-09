@@ -104,6 +104,11 @@ body{
     color: #FFF;
 }
 
+.cards-link{
+    text-decoration: none; 
+    color: #FFF;
+}
+
 .language-card{
     display: flex;
     flex-direction: column;
