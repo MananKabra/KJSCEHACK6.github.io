@@ -4,6 +4,10 @@
     border: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .main-container{
     display: flex;
     flex-direction: row;
@@ -26,9 +30,9 @@
     opacity: 0.7;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: white;
+    color: rgb(212, 212, 212);
     padding: 12px; 
-    transition: border-right-style, border-width, border-color;
+    transition: border-right-style, border-width, border-color, color;
     transition-duration: 500ms;
 }
 
@@ -36,8 +40,19 @@
   border-right-style: inset;
   border-width: 5px;
   border-color: rgb(190, 190, 190);
+  color: white;
 }
 
 .content{
-    padding-left: 50px;
+    margin-left: 50px;
+}
+
+#header{
+    width: 98vw;
+    height: 100vh;
+    background-color: #CBDEFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
