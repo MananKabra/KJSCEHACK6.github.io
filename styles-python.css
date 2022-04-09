@@ -220,3 +220,23 @@ body{
     border-bottom-style: ridge;
     border-width: 2px;
   }
+
+  .part-2{
+    width: 100vw;
+    text-align: center;
+    background: url("https://pbs.twimg.com/media/EoPFigJUwAcdv75?format=jpg&name=large")
+                repeat fixed 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom-style: ridge;
+    border-width: 2px;
+  }
+  
+  .part-3{
+    width: 100vw;
+    text-align: center;
+    background: url("https://pbs.twimg.com/media/EoPFidwVQAI-gb7?format=jpg&name=large")
+                repeat fixed 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
