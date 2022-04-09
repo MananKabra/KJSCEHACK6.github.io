@@ -61,20 +61,20 @@ body{
 
 #languages-select{
     overflow: hidden;
-    padding: 200px 150px;
+    padding: 100px 150px;
 }
 
 .language-text{
     color: #FFF;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .cards-container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
+    color: #FFF;
 }
 
 .language-card{
@@ -83,9 +83,9 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgb(33, 33, 33);
-    margin: 30px 80px;
+    margin: 10px 50px;
     border-radius: 8px;
-    width: 200px;
+    width: 300px;
     transition: background-color, transform, box-shadow;
     transition-duration: 550ms;
 }
@@ -95,7 +95,7 @@ body{
     width: 100px;
 }
 
-.no-animation {
+.animation-stopper{
 	-webkit-animation: none !important;
           animation: none !important; 
 }
@@ -113,6 +113,7 @@ body{
     background-color: #e34f26;
     transform: scale(1.05);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    color: rgb(21, 21, 21);
 }
 
 .right-card{
@@ -128,6 +129,7 @@ body{
     background-color: #d5b92c;
     transform: scale(1.05);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    color: rgb(21, 21, 21);
 }
 
 .center-card{
@@ -143,6 +145,7 @@ body{
     background-color: #2d8ad6;
     transform: scale(1.05);
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    color: rgb(21, 21, 21);
 }
 
 @keyframes left-card-animation {
