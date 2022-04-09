@@ -201,13 +201,28 @@ body{
     align-items: center;
     padding-top: 50px;
     position: relative;
-    z-index: -1;
     bottom: 36px;
     font-family: 'Rubik Mono One', sans-serif;
+    margin-left: 50px;
     }
 
   .btn{
     margin-top: 50px;
+  }
+
+  #download-button{
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: rgb(72, 151, 216);
+    transition: transform, background-color;
+    transition-duration: 500ms;
+    margin-bottom: 20px;
+  }
+  
+  #download-button:hover{
+    transform: scale(1.1);
+    background-color: rgb(28, 120, 196);
   }
   
   .part-1{
