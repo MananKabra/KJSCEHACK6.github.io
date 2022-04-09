@@ -48,3 +48,9 @@
     transition: background-color, transform;
     transition-duration: 750ms;
 }
+
+.header-text:hover{
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
