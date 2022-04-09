@@ -56,3 +56,18 @@ body{
     align-items: center;
     overflow: hidden;
 }
+
+#youtube-tutorials{
+    text-align: center;
+    background-color: #71A1EE;
+    padding: 10% 15%;
+}
+
+.video-thumbnail{
+    width: 400px;
+}
+
+.container-fluid{
+    margin-left: auto;
+    padding: 50px;
+}
